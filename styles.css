@@ -119,9 +119,9 @@ img { display: block; max-width: 100%; }
 .player.vmissing .player__fallback { display: grid; place-items: center; min-height: 420px; color: var(--ink-2); font-weight: 600; padding: 24px; text-align: center; }
 
 /* ============ Personal brand ============ */
-.pbrand__grid { display: grid; grid-template-columns: 1fr; gap: clamp(28px,5vw,56px); align-items: center; }
+.pbrand__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px,5vw,56px); align-items: start; }
 .pbrand__text .chip { margin-bottom: 22px; }
-.pbrand__text p { color: var(--ink-2); font-size: 18px; max-width: 46ch; }
+.pbrand__text p { color: var(--ink-2); font-size: 18px; max-width: 100%; }
 .pbrand__text strong { color: var(--ink); }
 .pbrand__link { display: inline-block; margin-top: 18px; font-family: var(--disp); font-weight: 700; color: var(--purple); }
 .pbrand__link:hover { text-decoration: underline; }
