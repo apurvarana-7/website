@@ -234,3 +234,5 @@ img { display: block; max-width: 100%; }
 .pbrand__full .pbrand__shot { margin-top: 32px; }
 .pbrand__full .pbrand__shot img { width: 100%; border-radius: var(--r); border: 1px solid var(--line); box-shadow: 0 26px 60px -34px rgba(0,0,0,.4); display: block; }
 @media (max-width: 768px) { .pbrand__horiz { flex-direction: column; } }
+
+.analytics .ga img { height: 320px; object-fit: cover; }
