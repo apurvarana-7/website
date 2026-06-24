@@ -240,7 +240,12 @@ img { display: block; max-width: 100%; }
 /* Justify text across all sections except education */
 p, .about__text p, .pbrand__text p, .pbrand__horiz p, .reels__cap, .contact p {
   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 .edu p, .edu li, .edu-item p {
   text-align: left;
+  hyphens: none;
 }
