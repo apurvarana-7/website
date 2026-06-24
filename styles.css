@@ -73,7 +73,7 @@ img { display: block; max-width: 100%; }
 .about__grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: clamp(28px,5vw,60px); align-items: center; }
 .about__text p { color: var(--ink-2); margin-top: 16px; font-size: 16px; max-width: 60ch; }
 .about__text .display { margin-bottom: 8px; }
-.about__photo img { width: 100%; border-radius: var(--r); box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); }
+.about__photo img { width: 100%; border-radius: var(--r); box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); object-fit: cover; object-position: top center; display: block; }
 
 /* ============ Education ============ */
 .edu { background: var(--bg-alt); }
