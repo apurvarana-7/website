@@ -119,7 +119,7 @@ img { display: block; max-width: 100%; }
 .player.vmissing .player__fallback { display: grid; place-items: center; min-height: 420px; color: var(--ink-2); font-weight: 600; padding: 24px; text-align: center; }
 
 /* ============ Personal brand ============ */
-.pbrand__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px,5vw,56px); align-items: start; }
+.pbrand__grid { display: block; }
 .pbrand__text .chip { margin-bottom: 22px; }
 .pbrand__text p { color: var(--ink-2); font-size: 18px; max-width: 100%; }
 .pbrand__text strong { color: var(--ink); }
@@ -226,3 +226,11 @@ img { display: block; max-width: 100%; }
   .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
   .hero__media { transform: none; }
 }
+
+.pbrand__full { width: 100%; }
+.pbrand__full .chip { margin-bottom: 22px; }
+.pbrand__horiz { display: flex; flex-direction: row; gap: 24px; margin-bottom: 28px; }
+.pbrand__horiz p { flex: 1; color: var(--ink-2); font-size: 16px; max-width: 100%; }
+.pbrand__full .pbrand__shot { margin-top: 32px; }
+.pbrand__full .pbrand__shot img { width: 100%; border-radius: var(--r); border: 1px solid var(--line); box-shadow: 0 26px 60px -34px rgba(0,0,0,.4); display: block; }
+@media (max-width: 768px) { .pbrand__horiz { flex-direction: column; } }
