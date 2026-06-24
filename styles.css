@@ -227,7 +227,7 @@ img { display: block; max-width: 100%; }
   .hero__media { transform: none; }
 }
 
-.pbrand__full { width: 100%; }
+.pbrand__full { width: 100%; } .pbrand__full h2 { margin-bottom: 32px; }
 .pbrand__full .chip { margin-bottom: 22px; }
 .pbrand__horiz { display: flex; flex-direction: row; gap: 24px; margin-bottom: 28px; }
 .pbrand__horiz p { flex: 1; color: var(--ink-2); font-size: 16px; max-width: 100%; }
