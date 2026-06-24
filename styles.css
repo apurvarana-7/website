@@ -249,3 +249,12 @@ p, .about__text p, .pbrand__text p, .pbrand__horiz p, .reels__cap, .contact p {
   text-align: left;
   hyphens: none;
 }
+
+/* ===== SKILLS SECTION ===== */
+.skills__group { margin-bottom: 48px; }
+.skills__label { font-family: var(--disp); font-weight: 700; font-size: clamp(15px,2vw,20px); color: var(--ink-2); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.skills__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 20px; }
+.skill__card { display: flex; flex-direction: column; align-items: center; gap: 10px; background: var(--bg-alt); border: 1px solid var(--line); border-radius: 14px; padding: 20px 12px; transition: transform .3s var(--ease), box-shadow .3s; }
+.skill__card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px -12px rgba(0,0,0,.2); }
+.skill__card img { width: 48px; height: 48px; object-fit: contain; }
+.skill__card span { font-size: 13px; font-weight: 600; color: var(--ink-2); text-align: center; }
