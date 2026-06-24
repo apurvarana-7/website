@@ -4,7 +4,7 @@
 window.PORTFOLIO_CONFIG = {
   name: "Apurva Rana",
   title: "Marketing & Digital Marketing",
-  tagline: "Creativity meets analytics — campaigns, content and brand growth that you can measure.",
+  tagline: "Creativity meets analytics. Campaigns, content and brand growth that you can measure.",
 
   // Contact / links  (replace email + LinkedIn with your real ones)
   email: "apurva.rana043@gmail.com",
