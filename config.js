@@ -8,7 +8,7 @@ window.PORTFOLIO_CONFIG = {
 
   // Contact / links  (replace email + LinkedIn with your real ones)
   email: "apurva.rana043@gmail.com",
-  linkedin: "https://www.linkedin.com/in/apurvarana",
+  linkedin: "https://www.linkedin.com/in/apurvarana07/",
   instagram: "https://www.instagram.com/__apurvarana__",
   instagramHandle: "@__apurvarana__",
 
