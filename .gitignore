@@ -4,3 +4,10 @@ _frames/
 _hi/
 _measure/
 _chk.jpg
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
