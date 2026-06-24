@@ -236,3 +236,11 @@ img { display: block; max-width: 100%; }
 @media (max-width: 768px) { .pbrand__horiz { flex-direction: column; } }
 
 .analytics .ga img { height: 320px; object-fit: cover; }
+
+/* Justify text across all sections except education */
+p, .about__text p, .pbrand__text p, .pbrand__horiz p, .reels__cap, .contact p {
+  text-align: justify;
+}
+.edu p, .edu li, .edu-item p {
+  text-align: left;
+}
