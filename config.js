@@ -7,7 +7,7 @@ window.PORTFOLIO_CONFIG = {
   tagline: "Creativity meets analytics — campaigns, content and brand growth that you can measure.",
 
   // Contact / links  (replace email + LinkedIn with your real ones)
-  email: "apurva@example.com",
+  email: "apurva.rana043@gmail.com",
   linkedin: "https://www.linkedin.com/in/apurvarana",
   instagram: "https://www.instagram.com/__apurvarana__",
   instagramHandle: "@__apurvarana__",
